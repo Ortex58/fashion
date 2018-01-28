@@ -1,0 +1,34 @@
+/* MIXTITUP PORTFOLIO */
+
+.portfoliowrap	{ overflow:visible;position:relative; margin-left: 0; }
+.portfolio		{ overflow:visible !important; position:relative; }
+.portfolio img	{ width:100%; max-width:none !important; height:auto; display:block;}
+.threecol .entry	{ width:393px; float:left;overflow:visible;position:relative; }
+.fourcol .entry	{ width:25%; float:left;overflow:visible;position:relative; }
+.fivecol .entry	{ width:275px; float:left;overflow:visible;position:relative; }
+
+ul.portfoliofilter{ margin:0; padding:0; margin-bottom:30px; margin-top:0px; width:100%; padding-bottom:0px; text-align:center; font-weight:bold; color:#ffffff;}
+ul.portfoliofilter li { display: inline-block; margin-right:0px; margin-bottom: 10px; font-weight:bold; font-family:'Montserrat'; color:#ffffff; text-transform:none;font-weight:700; font-size:14px; line-height:30px; text-shadow:none !important; -webkit-box-shadow:none !important; -moz-box-shadow:none !important; box-shadow:none !important; padding:10px 10px ; -moz-box-sizing:border-box; box-sizing:border-box; -webkit-order-sizing:border-box; text-transform:capitalize; }
+
+ul.portfoliofilter li:hover, ul.portfoliofilter li a:hover  { cursor:pointer; color: #f7b200}
+ul.portfoliofilter li.active {  /*background: #E19105; border: 1px solid #E19105;*/ color: #f7b200 }
+
+.isotope-item { z-index: 2; }
+.isotope-hidden.isotope-item { pointer-events: none; z-index: 1; }
+.isotope,
+.mix { -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s;}
+.isotope { -webkit-transition-property: height, width; -moz-transition-property: height, width; transition-property: height, width; margin-top:60px; }
+.mix{ -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity; transition-property: transform, opacity; }
+
+
+.holderwrap { position:relative; -moz-box-sizing: border-box; box-sizing:border-box; -webkit-order-sizing:border-box; }
+.holderwrap h5{ display:none; }
+
+
+.controls {display: inline-block; width: 180px; margin: 0 0 30px; vertical-align: top; }
+.controls li { margin-left: 20px; cursor: pointer; list-style-type: square; }
+.controls li.active { font-weight: 700; }
+#mixitup { width: auto; text-align: justify; font-size: 0.1px; display: flex; flex-wrap: wrap;}
+#mixitup .mix { display: none; opacity: 0; vertical-align: top; font-size: 30px; text-align: center; -webkit-transition: ease; /* Safari */ }
+#mixitup .mix img{ 	display:block; width:100%; height:auto; }
+#mixitup .mix { width:25%; /*width: -webkit-calc(33.3333% - 10px); width: -moz-calc(33.3333% - 10px); width: calc(33.3333% - 10px); */}
